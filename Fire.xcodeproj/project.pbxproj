@@ -12,7 +12,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		AF1B11D01CF3FBA4006C0593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1B11CF1CF3FBA4006C0593 /* AppDelegate.m */; };
 		BB1C045D0F93B9FB00863229 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1C045C0F93B9FB00863229 /* AppController.m */; };
 		BB1C04620F93BA6400863229 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1C04610F93BA6400863229 /* QuartzCore.framework */; };
 		BB1C04A70F93CFEE00863229 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1C04A60F93CFEE00863229 /* fire.png */; };
@@ -32,8 +31,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Fire-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fire-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fire.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF1B11CE1CF3FBA4006C0593 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AF1B11CF1CF3FBA4006C0593 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BB1C045B0F93B9FB00863229 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		BB1C045C0F93B9FB00863229 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		BB1C04610F93BA6400863229 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
@@ -57,8 +54,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AF1B11CE1CF3FBA4006C0593 /* AppDelegate.h */,
-				AF1B11CF1CF3FBA4006C0593 /* AppDelegate.m */,
 				256AC3D80F4B6AC300CF3369 /* FireAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* FireAppDelegate.m */,
 				BB1C045B0F93B9FB00863229 /* AppController.h */,
@@ -201,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF1B11D01CF3FBA4006C0593 /* AppDelegate.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* FireAppDelegate.m in Sources */,
 				BB1C045D0F93B9FB00863229 /* AppController.m in Sources */,

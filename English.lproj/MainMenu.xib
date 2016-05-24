@@ -11,7 +11,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <menu title="AMainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
                 <menuItem title="Fire" id="56">
@@ -114,9 +114,9 @@
                 <outlet property="delegate" destination="494" id="NdN-sg-23w"/>
             </connections>
         </window>
-        <customObject id="494" customClass="AppDelegate">
+        <customObject id="494" customClass="FireAppDelegate">
             <connections>
-                <outlet property="window" destination="371" id="IgM-1t-Ywq"/>
+                <outlet property="window" destination="371" id="jud-IO-qDV"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
